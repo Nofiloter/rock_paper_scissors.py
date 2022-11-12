@@ -5,7 +5,7 @@ from time import sleep
 
 print("This is a game of rock, paper, scissors. Try to beat the computer!") #First phrase
 
-sleep(2)
+sleep(1.5)
 
 prompt = "y"
 while prompt.upper() == "Y": #While loop for replayability
@@ -14,7 +14,7 @@ while prompt.upper() == "Y": #While loop for replayability
     list = [1, 2, 3]
     x = random.choice(list) #randomizer for computer's move
     
-    sleep(1.5)
+    sleep(1)
 
     if play.upper() == "R" and x == 3: #Playing Rock
         print("You Win against scissors!")
